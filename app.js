@@ -9,7 +9,7 @@ var budgetController = (function(){
         this.percentage = -1;
     }
 
-    //creating a methid off the prototype of the expense constructor
+    //creatinga a methid off the prototype of the expense constructor
     // this method calculates it.
     Expense.prototype. calcPercentage = function(totalIncome){
         if (totalIncome > 0){
